@@ -9,7 +9,7 @@ My i3 window manager setup | black and red rice
  - - - -
 Some packages i use:
 * terminator
-* qutebrowser
+* [qutebrowser](https://www.qutebrowser.org "qutebrowser")
 * betterlockscreen
 * conky
 * pywal
