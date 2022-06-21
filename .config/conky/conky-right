@@ -1,0 +1,89 @@
+conky.config = {
+--!/usr/bin/conky -d -c
+--#	.conkyrc configuration
+	alignment = 'top_right',
+	background = true,
+	cpu_avg_samples = 2,
+	double_buffer = true,
+	draw_borders = false,
+	draw_graph_borders = false,
+	draw_outline = false,
+	draw_shades = false,
+	gap_x = 20,
+	gap_y = 60,
+	max_specials = '1024',
+	max_user_text = 10000,
+--maximum_width 180
+--minimum_size 850
+	net_avg_samples = 2,
+	no_buffers = true,
+	override_utf8_locale = true,
+	own_window = true,
+	own_window_colour = '#000000',
+	own_window_hints = 'undecorated,below,sticky,skip_taskbar,skip_pager',
+	own_window_transparent = true,
+	own_window_type = 'override',
+	pad_percents = 2,
+	short_units = true,
+	stippled_borders = 3,
+	text_buffer_size = 8000,
+	total_run_times = 0,
+	update_interval = 1.0,
+	uppercase = false,
+	use_spacer = 'right',
+	use_xft = true,
+	xftalpha = 0.75,
+	font = 'sans:size=10',
+
+	color1 = '#c13434',
+
+};
+
+conky.text = [[
+${font sans:size=10}${color1}Time
+${font sans:size=13}${color ffffff}${time %H:%M:%S}
+
+${font sans:size=10}${color1}Full date
+${color ffffff}${time %d.%m.%Y}
+
+${color1}Day
+${color ffffff}${time %A}
+
+${color1}Month
+${color ffffff}${time %B}
+
+${color1}Uptime
+${color ffffff}${uptime}
+
+${font sans:size=10}${color1}CPU
+${color ffffff}${cpu cpu0}%
+${color 333333}${cpubar 20 5}
+${color1}RAM
+${color ffffff}${memperc}% / ${memmax}
+${color 333333}${membar 20 5}
+
+${color1}Disk space
+${color ffffff}${fs_used /}/${fs_size /}
+
+${color1}Network
+${color1}U ${color ffffff}${upspeed wlp2s0}
+${color1}D ${color ffffff}${downspeed wlp2s0}
+
+${color1}Hostname
+${color ffffff}${nodename}
+
+${color1}SSID
+${color ffffff}${wireless_essid wlp2s0}
+
+${color1}IP Address
+${color ffffff}${addr wlp2s0}
+
+${color1}Gateway
+${color ffffff}${gw_ip wlp2s0}
+
+${color1}WIFI Quality
+${color ffffff}${wireless_link_qual_perc wlp2s0}%
+
+${color1}Battery
+${color ffffff}${battery_percent}%
+]];
