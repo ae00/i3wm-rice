@@ -10,12 +10,12 @@ My i3 window manager setup | black and red rice
 Some packages i use:
 * terminator
 * [qutebrowser](https://www.qutebrowser.org "qutebrowser")
-* betterlockscreen
+* [betterlockscreen](https://github.com/betterlockscreen/betterlockscreen "betterlockscreen")
 * conky
 * pywal
-* polybar
+* [polybar](https://github.com/polybar/polybar "polybar")
 * feh
 * picom
 * dunst
-* rofi
+* [rofi](https://github.com/davatorium/rofi "ROFI")
  - - - -
