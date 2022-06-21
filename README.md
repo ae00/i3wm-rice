@@ -16,5 +16,5 @@ Some packages i use:
 * picom
 * dunst
 * rofi
-
+ - - - -
 - Use "wal -i [path-to-wallpaper]" to generate the colours for i3
