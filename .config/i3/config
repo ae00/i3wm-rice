@@ -4,9 +4,8 @@
 # Should you change your keyboard layout some time, delete
 # this file and re-run i3-config-wizard(1).
 #
+
 # i3 config file (v4)
-#
-#
 #
 # Please see https://i3wm.org/docs/userguide.html for a complete reference!
 
@@ -57,7 +56,7 @@ exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 exec --no-startup-id nm-applet
 
 #bindsym $mod+SHIFT+x exec i3lock -c 000000
-#bindsym $mod+SHIFT+x exec i3lock-fancy -f DejaVu-Sans
+#bindsym $mod+SHIFT+x exec i3lock-fancy -f DejaVu-Sans -t 'Andreas Eriksson'
 bindsym $mod+SHIFT+x exec betterlockscreen -l -w ~/.config/wallpaper/archlinux-red.png
 # Use pactl to adjust volume in PulseAudio.
 set $refresh_i3status killall -SIGUSR1 i3status
