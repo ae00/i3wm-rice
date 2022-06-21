@@ -17,4 +17,3 @@ Some packages i use:
 * dunst
 * rofi
  - - - -
-- Use "wal -i [path-to-wallpaper]" to generate the colours for i3 (requires pywal)
