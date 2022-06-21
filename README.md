@@ -12,7 +12,7 @@ Some packages i use:
 * [qutebrowser](https://www.qutebrowser.org "qutebrowser")
 * [betterlockscreen](https://github.com/betterlockscreen/betterlockscreen "betterlockscreen")
 * conky
-* pywal
+* [pywal](https://github.com/dylanaraps/pywal "pywal")
 * [polybar](https://github.com/polybar/polybar "polybar")
 * feh
 * picom
