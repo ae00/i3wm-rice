@@ -4,6 +4,8 @@ My i3 window manager setup | black and red rice
 ![scrot](scrot/scrot.png)
 
 ![scrot](scrot/scrot2.png)
+
+![scrot](scrot/scrot3.png)
  - - - -
 Some packages i use:
 * terminator
