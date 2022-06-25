@@ -22,6 +22,6 @@ source ~/.cache/wal/colors-tty.sh
 
 ##-----------------------------------------------------
 ## synth-shell-prompt.sh
-if [ -f /home/master/.config/synth-shell/synth-shell-prompt.sh ] && [ -n "$( echo $- | grep i )" ]; then
-	source /home/master/.config/synth-shell/synth-shell-prompt.sh
+if [ -f ~/.config/synth-shell/synth-shell-prompt.sh ] && [ -n "$( echo $- | grep i )" ]; then
+	source ~/.config/synth-shell/synth-shell-prompt.sh
 fi
