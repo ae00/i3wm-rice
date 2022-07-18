@@ -1,8 +1,10 @@
 [bar/mybar]
 modules-left = i3
 modules-center = xwindow
+modules-right =
 bottom = true
 padding-left = 10px
+padding-right = 30px
 line-size = 3
 font-0 = fixed:pixelsize=10;1
 
@@ -57,13 +59,14 @@ label-urgent-background =
 label-urgent-padding = 2
 
 ; Separator in between workspaces
-; label-separator = .
+label-separator = |
+label-separator-foreground = #3f3f3f
 
 [module/xwindow]
 type = internal/xwindow
 label = %title:0:30:...%
 
 format-underline = ${colors.color2}
-format-background = ${colors.color1}
+#format-background = ${colors.color1}
 format-foreground = #${colors.color3}
 format-padding =
