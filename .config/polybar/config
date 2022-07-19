@@ -1,12 +1,13 @@
 [bar/mybar]
 modules-left = i3
 modules-center = xwindow
+#modules-center = i3
 modules-right =
 bottom = true
 padding-left = 10px
 padding-right = 30px
 line-size = 3
-font-0 = fixed:pixelsize=10;1
+font-0 = fixed:pixelsize=14;1
 
 
 height = 20
