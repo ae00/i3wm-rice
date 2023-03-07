@@ -9,7 +9,7 @@ My i3 window manager setup | black and red rice
  - - - -
 Some packages i use:
 * [synth-shell](https://github.com/andresgongora/synth-shell)
-* alacritty
+* terminator
 * [qutebrowser](https://www.qutebrowser.org "qutebrowser")
 * [betterlockscreen](https://github.com/betterlockscreen/betterlockscreen "betterlockscreen")
 * conky
