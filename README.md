@@ -1,4 +1,4 @@
-(This rice and the preview images are dirty and might have changed overtime)
+(This repo and the preview images are dirty and might have changed overtime)
 
 # i3wm-dark-red
 My i3 window manager setup | black and red rice 
