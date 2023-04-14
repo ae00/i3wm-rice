@@ -1,0 +1,2 @@
+# Qutebrowser - Open youtube links
+:config-dict-add url.searchengines yt https://www.youtube.com/results?search_query={}
