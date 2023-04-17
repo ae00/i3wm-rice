@@ -21,4 +21,6 @@ Some packages i use:
 * picom
 * dunst
 * [rofi](https://github.com/davatorium/rofi "ROFI")
+* mpv
+* yt-dlp
  - - - -
