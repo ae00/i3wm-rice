@@ -1,2 +1,5 @@
 # Qutebrowser - Open youtube links
 :config-dict-add url.searchengines yt https://www.youtube.com/results?search_query={}
+# Qutebrowser - view youtube links in mpv
+:bind ,M hint links spawn mpv {hint-url}
+:bind ,m spawn mpv {url}
