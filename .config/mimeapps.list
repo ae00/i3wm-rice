@@ -1,0 +1,15 @@
+[Default Applications]
+image/jpeg=feh.desktop
+text/html=org.qutebrowser.qutebrowser.desktop
+x-scheme-handler/http=org.qutebrowser.qutebrowser.desktop
+x-scheme-handler/https=org.qutebrowser.qutebrowser.desktop
+x-scheme-handler/about=org.qutebrowser.qutebrowser.desktop
+x-scheme-handler/unknown=org.qutebrowser.qutebrowser.desktop
+image/png=feh.desktop
+image/jpg=feh.desktop
+text/plain=vim-term.desktop
+inode/x-empty=vim-term.desktop
+text/x-script.python=vim-term.desktop
+application/vnd.tcpdump.pcap=vim-term.desktop
+text/x-shellscript=vim-term.desktop
+video/mp4=vlc.desktop
