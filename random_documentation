@@ -3,3 +3,5 @@
 # Qutebrowser - view youtube links in mpv
 :bind ,M hint links spawn mpv {hint-url}
 :bind ,m spawn mpv {url}
+# Set qutebrowser as default browser
+xdg-settings set default-web-browser org.qutebrowser.qutebrowser.desktop
