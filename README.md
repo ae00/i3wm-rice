@@ -23,4 +23,5 @@ Some packages i use:
 * [rofi](https://github.com/davatorium/rofi "ROFI")
 * mpv
 * yt-dlp
+* flameshot
  - - - -
