@@ -20,6 +20,8 @@ cat ~/.cache/wal/sequences
 # To add support for TTYs this line can be optionally added.
 source ~/.cache/wal/colors-tty.sh
 
+alias feh='feh --scale-down'
+
 ##-----------------------------------------------------
 ## synth-shell-prompt.sh
 if [ -f ~/.config/synth-shell/synth-shell-prompt.sh ] && [ -n "$( echo $- | grep i )" ]; then
