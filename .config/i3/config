@@ -216,12 +216,12 @@ bindsym $mod+r mode "resize"
 #        status_command i3status
 #}
 
-exec --no-startup-id polybar -c ~/.config/polybar/config mybar;
-exec --no-startup-id feh --bg-scale ~/.config/wallpaper/archlinux-red.png;
+exec --no-startup-id wal -i /home/master/.config/wallpaper/archlinux-red.png;
+#exec --no-startup-id polybar -c /home/master/.config/polybar/config mybar;
+exec_always --no-startup-id sh ~/.config/polybar/launch.sh;
 exec --no-startup-id conky -c ~/.config/conky/conky-right;
 exec --no-startup-id xrandr --output eDP-1 --scale 0.6x0.6;
 exec --no-startup-id setxkbmap se;
 exec --no-startup-id dunst -config /home/master/.config/dunst/dunstrc;
 exec --no-startup-id picom;
 exec --no-startup-id brightnessctl s 200;
-exec --no-startup-id wal -i ~/.config/wallpaper/archlinux-red.png;
