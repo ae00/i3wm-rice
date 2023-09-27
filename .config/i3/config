@@ -83,6 +83,9 @@ bindsym $mod+d exec --no-startup-id rofi -config /home/master/.cache/wal/colors-
 bindsym $mod+c exec --no-startup-id rofi -config /home/master/.cache/wal/colors-rofi-dark.rasi -disable-history -show calc
 bindsym $mod+f exec --no-startup-id rofi -show filebrowser -config /home/master/.cache/wal/colors-rofi-dark.rasi -auto-select
 #bindsym $mod+d exec --no-startup-id rofi -show run
+
+bindsym $mod+g exec --no-startup-id alacritty -e ranger
+
 # A more modern dmenu replacement is rofi:
 # bindcode $mod+40 exec "rofi -modi drun,run -show drun"
 # There also is i3-dmenu-desktop which only displays applications shipping a
