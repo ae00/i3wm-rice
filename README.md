@@ -26,4 +26,5 @@ Some packages i use:
 * flameshot
 * bat
 * exa
+* ripgrep
  - - - -
