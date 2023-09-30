@@ -10,7 +10,6 @@ My i3 window manager setup | black and red rice
 ![scrot](scrot/scrot2.png)
  - - - -
 Some packages i use:
-* [synth-shell](https://github.com/andresgongora/synth-shell)
 * alacritty
 * [qutebrowser](https://www.qutebrowser.org "qutebrowser")
 * [betterlockscreen](https://github.com/betterlockscreen/betterlockscreen "betterlockscreen")
