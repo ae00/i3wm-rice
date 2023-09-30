@@ -24,4 +24,6 @@ Some packages i use:
 * mpv
 * yt-dlp
 * flameshot
+* bat
+* exa
  - - - -
