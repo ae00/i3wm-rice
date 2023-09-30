@@ -5,8 +5,11 @@
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
-alias ls='ls --color=auto'
+# alias ls='ls --color=auto'
 PS1='[\u@\h \W]\$ '
+
+export EDITOR=vim
+export VISUAL=vim
 
 # Import colorscheme from 'wal' asynchronously
 # &   # Run the process in the background.
@@ -22,3 +25,9 @@ source ~/.cache/wal/colors-tty.sh
 
 alias feh='feh --scale-down --image-bg black'
 alias du='du -sh'
+alias ddg='w3m duckduckgo.com'
+alias gpt='tgpt -m'
+alias bat='bat'
+
+alias ls='exa'
+alias ll='exa -alh'
