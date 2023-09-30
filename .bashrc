@@ -21,6 +21,7 @@ cat ~/.cache/wal/sequences
 source ~/.cache/wal/colors-tty.sh
 
 alias feh='feh --scale-down --image-bg black'
+alias du='du -sh'
 
 ##-----------------------------------------------------
 ## synth-shell-prompt.sh
