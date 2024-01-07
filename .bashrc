@@ -34,3 +34,4 @@ alias df='pydf'
 
 alias ls='exa'
 alias ll='exa -alh'
+alias lg='ll | grep'
