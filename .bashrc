@@ -31,6 +31,7 @@ alias bat='bat'
 alias grep='grep --color=auto'
 alias myip="curl http://ipecho.net/plain; echo"
 alias df='pydf'
+alias cl='clear'
 
 alias ls='exa'
 alias ll='exa -alh'
