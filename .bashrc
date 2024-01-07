@@ -28,6 +28,9 @@ alias du='du -sh'
 alias ddg='w3m duckduckgo.com'
 alias gpt='tgpt -m'
 alias bat='bat'
+alias grep='grep --color=auto'
+alias myip="curl http://ipecho.net/plain; echo"
+alias df='pydf'
 
 alias ls='exa'
 alias ll='exa -alh'
