@@ -32,9 +32,9 @@ alias grep='grep --color=auto'
 alias myip="curl http://ipecho.net/plain; echo"
 alias df='pydf'
 alias cl='clear'
-alias dl='cd /home/master/Downloads'
-alias doc='cd /home/master/Documents'
-alias i3c='vim /home/master/.config/i3/config'
+alias dl='cd ~/Downloads'
+alias doc='cd ~/Documents'
+alias i3c='vim ~/.config/i3/config'
 
 alias ls='exa'
 alias ll='exa -alh'
