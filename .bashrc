@@ -39,3 +39,6 @@ alias i3c='vim ~/.config/i3/config'
 alias ls='exa'
 alias ll='exa -alh'
 alias lg='exa -alh | grep --ignore-case'
+
+alias lsd='ls -D -l'
+alias lsf='ls -f -l'
