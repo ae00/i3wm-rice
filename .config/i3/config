@@ -20,6 +20,8 @@ gaps inner 30
 gaps outer 30
 gaps right 100
 
+bindsym $mod+x sticky toggle
+
 new_window none
 
 hide_edge_borders smart
