@@ -23,7 +23,7 @@ gaps right 100
 bindsym $mod+x sticky toggle
 
 # Used for mpv to move window to the bottom right and toggle sticky to view on all workspaces.
-bindsym $mod+i floating toggle; resize set 550 550; move position 1050px 700px; sticky toggle
+bindsym $mod+i floating toggle; resize set 546 307; move position 1050 700; sticky toggle
 
 new_window none
 
