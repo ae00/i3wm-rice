@@ -14,16 +14,26 @@ set $mod Mod4
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
 #font pango:monospace 8
-font pango:dejavu 10
 
-gaps inner 30
-gaps outer 30
-gaps right 100
+bindsym $mod+Ctrl+b exec qutebrowser
+bindsym $mod+Ctrl+p exec pavucontrol
+
+for_window [class="pavucontrol"] floating enable border pixel 5 move position center resize set 1000 500
+for_window [class="KeePassXC"] floating enable move position center resize set 800 500
+
+bindsym Shift+Ctrl+Right workspace next
+bindsym Shift+Ctrl+Left workspace prev
 
 bindsym $mod+x sticky toggle
 
 # Used for mpv to move window to the bottom right and toggle sticky to view on all workspaces.
 bindsym $mod+i floating toggle; resize set 546 307; move position 1050 700; sticky toggle
+
+font pango:dejavu 10
+
+gaps inner 30
+gaps outer 30
+gaps right 100
 
 new_window none
 
@@ -38,12 +48,17 @@ set_from_resource $fg           i3wm.color15
 set_from_resource $fg-alt       i3wm.color2
 set_from_resource $hl           i3wm.color4
 
-# class                 border  backgr. text    indicator child_border
 client.focused          $bg	$bg	#ffffff $bg	  $bg
 client.urgent           #2f343a #900000 #ffffff #900000   #900000
 client.placeholder      #000000 #0c0c0c #ffffff #000000   #0c0c0c
 
 client.background       #ffffff
+
+# Make the currently focused window a scratchpad
+bindsym $mod+Shift+z move scratchpad
+
+# Show the first scratchpad window
+bindsym $mod+z scratchpad show
 
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
@@ -75,22 +90,26 @@ floating_modifier $mod
 
 # start a terminal
 
-bindsym $mod+Return exec i3-sensible-terminal
-
+#bindsym $mod+Return exec i3-sensible-terminal
+bindsym $mod+Return exec alacritty
+#bindsym $mod+Return exec terminator
 # kill focused window
 bindsym $mod+Shift+q kill
 #Flameshow gui
 bindsym $mod+p exec flameshot gui
+bindsym $mod+Shift+p exec flameshot screen
 
 # start dmenu (a program launcher)
 #bindsym $mod+d exec --no-startup-id dmenu_run
 bindsym $mod+d exec --no-startup-id rofi -config /home/master/.cache/wal/colors-rofi-dark.rasi -disable-history -show run -auto-select
 bindsym $mod+c exec --no-startup-id rofi -config /home/master/.cache/wal/colors-rofi-dark.rasi -disable-history -show calc
-bindsym $mod+f exec --no-startup-id rofi -show filebrowser -config /home/master/.cache/wal/colors-rofi-dark.rasi -auto-select
-#bindsym $mod+d exec --no-startup-id rofi -show run
+
+#bindsym $mod+f exec --no-startup-id rofi -show filebrowser -config /home/master/.cache/wal/colors-rofi-dark.rasi -auto-select
+bindsym $mod+f exec --no-startup-id rofi -show window -config /home/master/.cache/wal/colors-rofi-dark.rasi -auto-select
 
 bindsym $mod+g exec --no-startup-id alacritty -e ranger
 
+#bindsym $mod+d exec --no-startup-id rofi -show run
 # A more modern dmenu replacement is rofi:
 # bindcode $mod+40 exec "rofi -modi drun,run -show drun"
 # There also is i3-dmenu-desktop which only displays applications shipping a
