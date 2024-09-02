@@ -27,7 +27,7 @@ bindsym Shift+Ctrl+Left workspace prev
 bindsym $mod+x sticky toggle
 
 # Used for mpv to move window to the bottom right and toggle sticky to view on all workspaces.
-bindsym $mod+i floating toggle; resize set 546 307; move position 1030 690; sticky toggle
+bindsym $mod+i floating toggle; resize set 546 307; move position 1033 690; sticky toggle
 
 font pango:dejavu 10
 
