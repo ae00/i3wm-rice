@@ -60,6 +60,9 @@ bindsym $mod+Shift+z move scratchpad
 # Show the first scratchpad window
 bindsym $mod+z scratchpad show
 
+# Toggle transparency on current window
+bindsym $mod+t exec python ~/.config/i3/trans.py
+
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
 #font pango:DejaVu Sans Mono 8
