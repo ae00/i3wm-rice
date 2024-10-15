@@ -12,4 +12,5 @@ inode/x-empty=vim-term.desktop
 text/x-script.python=vim-term.desktop
 application/vnd.tcpdump.pcap=vim-term.desktop
 text/x-shellscript=vim-term.desktop
-video/mp4=vlc.desktop
+video/mp4=mpv.desktop
+application/pdf=libreoffice-base.desktop
