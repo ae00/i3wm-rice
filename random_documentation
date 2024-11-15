@@ -1,5 +1,7 @@
 # Qutebrowser - Open youtube links
 :config-dict-add url.searchengines yt https://www.youtube.com/results?search_query={}
+# Qutebrowser - Search openai
+:config-dict-add url.searchengines o https://chat.openai.com/?q={}
 # Qutebrowser - Open subreddit
 :config-dict-add url.searchengines r https://old.reddit.com/r/{}
 # Qutebrowser - view youtube links in mpv
