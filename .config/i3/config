@@ -33,7 +33,7 @@ font pango:dejavu 10
 
 gaps inner 30
 gaps outer 30
-gaps right 100
+gaps right 120
 
 new_window none
 
@@ -60,7 +60,6 @@ bindsym $mod+Shift+z move scratchpad
 # Show the first scratchpad window
 bindsym $mod+z scratchpad show
 
-# Toggle transparency on current window
 bindsym $mod+t exec python ~/.config/i3/trans.py
 
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
@@ -106,8 +105,10 @@ bindsym $mod+Shift+p exec flameshot screen
 #bindsym $mod+d exec --no-startup-id dmenu_run
 bindsym $mod+d exec --no-startup-id rofi -config /home/master/.cache/wal/colors-rofi-dark.rasi -disable-history -show run -auto-select
 bindsym $mod+c exec --no-startup-id rofi -config /home/master/.cache/wal/colors-rofi-dark.rasi -disable-history -show calc
+bindsym $mod+q exec kpl
 
-#bindsym $mod+f exec --no-startup-id rofi -show filebrowser -config /home/master/.cache/wal/colors-rofi-dark.rasi -auto-select
+
+bindsym $mod+u exec --no-startup-id rofi -show filebrowser -config /home/master/.cache/wal/colors-rofi-dark.rasi -auto-select
 bindsym $mod+f exec --no-startup-id rofi -show window -config /home/master/.cache/wal/colors-rofi-dark.rasi -auto-select
 
 bindsym $mod+g exec --no-startup-id alacritty -e ranger
@@ -250,8 +251,10 @@ exec --no-startup-id wal -i /home/master/.config/wallpaper/archlinux-red.png;
 #exec --no-startup-id polybar -c /home/master/.config/polybar/config mybar;
 exec_always --no-startup-id sh ~/.config/polybar/launch.sh;
 exec --no-startup-id conky -c ~/.config/conky/conky-right;
+exec --no-startup-id conky -c ~/.config/conky/rss;
 exec --no-startup-id xrandr --output eDP-1 --scale 0.6x0.6;
 exec --no-startup-id setxkbmap se;
 exec --no-startup-id dunst -config /home/master/.config/dunst/dunstrc;
-exec --no-startup-id picom;
+#exec --no-startup-id picom;
+exec --no-startup-id picom -D 1 --config /home/master/.config/picom/picom.conf;
 exec --no-startup-id brightnessctl s 200;
