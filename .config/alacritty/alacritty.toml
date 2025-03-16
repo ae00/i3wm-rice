@@ -1,0 +1,31 @@
+[colors.primary]
+background = "#000000"
+
+[font]
+size = 7.0
+
+[window]
+opacity = 0.9
+
+[window.padding]
+x = 20
+y = 20
+
+[colors.normal]
+black = "#000000"
+red = "#ff2e0a"
+green = "#ff2e0a"
+yellow = "#ff2e0a"
+blue = "#ff2e0a"
+magenta = "#ff2e0a"
+cyan = "#ff2e0a"
+white = "#ff2e0a"
+[colors.bright]
+black = "#000000"
+red = "#ff2e0a"
+green = "#ff2e0a"
+yellow = "#ff2e0a"
+blue = "#ff2e0a"
+magenta = "#ff2e0a"
+cyan = "#ff2e0a"
+white = "#ffffff"
