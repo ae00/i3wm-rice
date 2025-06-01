@@ -111,7 +111,7 @@ bindsym $mod+q exec kpl
 bindsym $mod+u exec --no-startup-id rofi -show filebrowser -config /home/master/.cache/wal/colors-rofi-dark.rasi -auto-select
 bindsym $mod+f exec --no-startup-id rofi -show window -config /home/master/.cache/wal/colors-rofi-dark.rasi -auto-select
 
-bindsym $mod+g exec --no-startup-id alacritty -e ranger
+bindsym $mod+g exec --no-startup-id alacritty -o 'window.padding.x=0' -o 'window.padding.y=0' -e ranger
 
 #bindsym $mod+d exec --no-startup-id rofi -show run
 # A more modern dmenu replacement is rofi:
