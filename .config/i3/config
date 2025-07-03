@@ -249,7 +249,7 @@ bindsym $mod+r mode "resize"
 
 exec --no-startup-id wal -i /home/master/.config/wallpaper/archlinux-red.png;
 #exec --no-startup-id polybar -c /home/master/.config/polybar/config mybar;
-exec_always --no-startup-id sh ~/.config/polybar/launch.sh;
+exec_always --no-startup-id sleep 1 && sh ~/.config/polybar/launch.sh;
 exec --no-startup-id conky -c ~/.config/conky/conky-right;
 exec --no-startup-id conky -c ~/.config/conky/rss;
 exec --no-startup-id xrandr --output eDP-1 --scale 0.6x0.6;
